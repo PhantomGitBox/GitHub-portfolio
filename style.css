@@ -40,7 +40,7 @@ section::after {
     clear: both;
 }
 @media (max-width: 600px) {
-    nav, article {
+    nav, article, section, footer {
         width: 100%;
         height: auto;
     }
@@ -50,4 +50,5 @@ footer {
     background-image: linear-gradient(to top left, #85754d, #4b2e83);
     text-align: center;
     padding: 20px;
+    color: whitesmoke;
 }
