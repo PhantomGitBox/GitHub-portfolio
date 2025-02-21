@@ -23,7 +23,6 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: inline-block;
     padding: 0;
 }
 
@@ -41,5 +40,5 @@ section::after {
 }
 
 footer {
-    background-image: linear-gradient(to bottom right, #85754d, #4b2e83);
+    background-image: linear-gradient(to top left, #85754d, #4b2e83);
 }
