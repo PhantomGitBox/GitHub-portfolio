@@ -1,8 +1,8 @@
 body {
-    background: linear-gradient(to bottom, dodgerblue 0%, lightgray 100%);;
+    background: whitesmoke;
 }
 
 h1 {
-    color: whitesmoke;
+    color: dodgerblue;;
     text-align: center;
 }
