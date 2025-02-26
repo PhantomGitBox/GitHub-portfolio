@@ -14,7 +14,7 @@ header {
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .header-nav ul li {
@@ -41,6 +41,6 @@ footer {
     text-align: center;
     padding: 1.5rem;
     color: whitesmoke;
-    font-size: 1rem;
-    opacity: 0.65;
+    font-size: 1.25rem;
+    position: relative;
 }

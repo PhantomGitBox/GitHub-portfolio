@@ -1,36 +1,39 @@
-/* Style the dropdown menu */
+/* Ensure the dropdown parent is properly positioned */
 .dropdown {
-    position: relative; /* Ensure submenu is positioned relative to this */
-    display: inline-block;
+    position: relative;
+    display: inline-block; /* Ensures it works well with absolute positioning */
 }
 
+/* Style the dropdown menu */
 .dropdown-menu {
-    display: none;
-    position: absolute; /* Ensures proper positioning */
+    display: none; /* Start hidden */
+    position: absolute;
     left: 0;
-    top: 100%; /* Positions it below the parent */
-
+    top: 100%;
+    background-color: white;
     border: 1px solid #ccc;
     padding: 10px 0;
     min-width: 150px;
     z-index: 100;
+    flex-direction: column; /* Ensure vertical stacking */
 }
 
-/* Show dropdown on hover */
 .dropdown:hover .dropdown-menu {
-    display: block;
+    display: flex; /* Show only on hover */
 }
 
-/* Style dropdown links */
+/* Ensure each dropdown item is block-level */
 .dropdown-menu li {
     padding: 8px 15px;
-    display: block;
+    display: block; /* Change from inline */
+    white-space: nowrap;
 }
 
 .dropdown-menu li a {
     text-decoration: none;
     color: black;
     display: block;
+    padding: 5px 10px;
 }
 
 .dropdown-menu li:hover {
