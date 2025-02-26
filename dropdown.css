@@ -1,0 +1,38 @@
+/* Style the dropdown menu */
+.dropdown {
+    position: relative; /* Ensure submenu is positioned relative to this */
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute; /* Ensures proper positioning */
+    left: 0;
+    top: 100%; /* Positions it below the parent */
+
+    border: 1px solid #ccc;
+    padding: 10px 0;
+    min-width: 150px;
+    z-index: 100;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style dropdown links */
+.dropdown-menu li {
+    padding: 8px 15px;
+    display: block;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.dropdown-menu li:hover {
+    background: lightgray;
+}
