@@ -1,0 +1,46 @@
+header {
+    background-image: linear-gradient(to bottom right, #4b2e83, #85754d);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    position: relative;
+}
+
+/* Navigation inside header */
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header-nav ul li {
+    position: relative;
+    padding: 10px;
+}
+
+nav {
+    flex: 1 1 300px; /* Flexible with a minimum width */
+    background: lightgray;
+    padding: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 0.5rem 0;
+}
+
+footer {
+    background-image: linear-gradient(to top left, #85754d, #4b2e83);
+    text-align: center;
+    padding: 1.5rem;
+    color: whitesmoke;
+    font-size: 1rem;
+    opacity: 0.65;
+}
